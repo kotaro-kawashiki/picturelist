@@ -15,6 +15,9 @@ class ImageUploadController extends Controller
        return view('home', compact('images'));
    }
    
+   
+   
+   
    public function uploadImages(Request $request)
    {
        $this->validate($request,[
